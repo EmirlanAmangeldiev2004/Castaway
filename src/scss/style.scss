@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap");
+@import "global";
+@import "mainMenu";
+@import "header-main";
+@import "episodes";
+@import "about";
+
+.contact {
+  position: relative;
+  padding: 100px 0;
+  &__lines {
+    position: absolute;
+    bottom: 74px;
+    left: -38px;
+  }
+  &__form {
+    padding: 60px 60px 75px 60px;
+    border-radius: 32px;
+    background: #000;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &__texts {
+      
+      &__p {
+        color: #118da8;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      &__title {
+        color: #fff;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 79.2px;
+        letter-spacing: 2.88px;
+      }
+    }
+    &__inps {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 50%;
+      &__inp1,
+      &__inp2 {
+        padding: 26px 19px 27px;
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid #191919;
+        background: #191919;
+        outline: none;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      &__btn {
+        border-radius: 6px;
+        background: #118da8;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        width: 87px;
+        height: 48px;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+}
+
+@media(max-width:1040px){
+  .contact{
+    &__lines{
+      left: -20px;
+    }
+    &__form{
+      display: block;
+      &__inps{
+        margin-top: 30px;
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media(max-width:650px){
+  .contact{
+    &__form{
+      padding: 60px 40px 75px 40px;
+      &__texts{
+        &__p{
+          font-size: 15px;
+        }
+        &__title{
+          font-size: 30px;
+          line-height: 50.2px;
+        }
+      }
+      &__inps{
+        width: 100%;
+        &__inp1,&__inp2{
+          padding: 12px 10px 12px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

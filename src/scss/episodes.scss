@@ -1,0 +1,155 @@
+.latestEpisodes {
+   padding-bottom: 160px;
+   &__h2-btn {
+     display: flex;
+     justify-content: space-between;
+     margin: 93px 0 0 40px;
+     align-items: center;
+     &__text {
+       color: #fff;
+       font-family: DM Sans;
+       font-size: 64px;
+       font-style: normal;
+       font-weight: 400;
+       letter-spacing: 2.88px;
+     }
+   }
+   &__cards {
+     &__card1,
+     &__card2,
+     &__card3 {
+       &__texts {
+         margin-left: 53px;
+         width: 65%;
+         position: relative;
+         &__miniBox {
+           position: absolute;
+           border-radius: 6px;
+           background: #191919;
+           padding: 0 16px;
+           top: 7.56px;
+           &__p {
+             color: #fff;
+             font-size: 18px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 27px;
+           }
+         }
+         &__tEpis {
+           color: #118da8;
+           font-size: 17px;
+           font-style: normal;
+           font-weight: 400;
+           margin-top: 82.56px;
+           &__span {
+             margin-left: 5px;
+           }
+         }
+         &__title {
+           color: #fff;
+           font-size: 57px;
+           font-style: normal;
+           font-weight: 400;
+           letter-spacing: 2.56px;
+           margin-top: 18px;
+           width: 80%;
+         }
+         &__text {
+           color: rgba(255, 255, 255, 0.7);
+           font-size: 22px;
+           font-style: normal;
+           font-weight: 400;
+           margin-top: 28px;
+         }
+         &__btn{
+           margin-top: 18px;
+         }
+       }
+       display: flex;
+       border-radius: 32px;
+       background: #000;
+       padding: 40px 40px 40px 40px;
+       margin-top: 60px;
+       &__img {
+         width: 100%;
+       }
+     }
+     &__card1 {
+       margin-top: 40px;
+     }
+   }
+ }
+ 
+ .blockImg{
+   width: 389px;
+ }
+ 
+ @media(max-width:1040px){
+   .latestEpisodes{
+      padding-bottom: 100px;
+     &__h2-btn{
+       margin-left: 0;
+     }
+     &__cards{
+       &__card1,&__card2,&__card3{
+         flex-direction: column;
+         align-items: center;
+         &__img{
+           width: 100%;
+         }
+         &__texts{
+           width: 100%;
+           &__miniBox{
+             top: 30px;
+           }
+           margin-left: 0;
+           &__title{
+             font-size: 50px;
+             width: 100%;
+           }
+           &__text{
+             font-size: 26px;
+           }
+         }
+       }
+     }
+   }
+   .blockImg{
+     width: 100%;
+   }
+ }
+ 
+ @media (max-width: 650px) {
+   .latestEpisodes {
+     &__h2-btn {
+       display: block;
+       text-align: center;
+       margin-top: 50px;
+       &__button {
+         margin-top: 20px;
+       }
+     }
+     &__cards{
+       &__card1,&__card2,&__card3{
+         &__texts{
+           &__title{
+             font-size: 20px;
+           }
+           &__text{
+             font-size: 16px;
+           }
+         }
+       }
+     }
+   }
+ }
+ @media (max-width: 430px) {
+   .latestEpisodes {
+     &__h2-btn {
+       &__text {
+         font-size: 30px;
+       }
+     }
+   }
+ }

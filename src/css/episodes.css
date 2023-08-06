@@ -1,0 +1,136 @@
+.latestEpisodes {
+  padding-bottom: 160px;
+}
+.latestEpisodes__h2-btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 93px 0 0 40px;
+  align-items: center;
+}
+.latestEpisodes__h2-btn__text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2.88px;
+}
+.latestEpisodes__cards__card1, .latestEpisodes__cards__card2, .latestEpisodes__cards__card3 {
+  display: flex;
+  border-radius: 32px;
+  background: #000;
+  padding: 40px 40px 40px 40px;
+  margin-top: 60px;
+}
+.latestEpisodes__cards__card1__texts, .latestEpisodes__cards__card2__texts, .latestEpisodes__cards__card3__texts {
+  margin-left: 53px;
+  width: 65%;
+  position: relative;
+}
+.latestEpisodes__cards__card1__texts__miniBox, .latestEpisodes__cards__card2__texts__miniBox, .latestEpisodes__cards__card3__texts__miniBox {
+  position: absolute;
+  border-radius: 6px;
+  background: #191919;
+  padding: 0 16px;
+  top: 7.56px;
+}
+.latestEpisodes__cards__card1__texts__miniBox__p, .latestEpisodes__cards__card2__texts__miniBox__p, .latestEpisodes__cards__card3__texts__miniBox__p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.latestEpisodes__cards__card1__texts__tEpis, .latestEpisodes__cards__card2__texts__tEpis, .latestEpisodes__cards__card3__texts__tEpis {
+  color: #118da8;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 82.56px;
+}
+.latestEpisodes__cards__card1__texts__tEpis__span, .latestEpisodes__cards__card2__texts__tEpis__span, .latestEpisodes__cards__card3__texts__tEpis__span {
+  margin-left: 5px;
+}
+.latestEpisodes__cards__card1__texts__title, .latestEpisodes__cards__card2__texts__title, .latestEpisodes__cards__card3__texts__title {
+  color: #fff;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2.56px;
+  margin-top: 18px;
+  width: 80%;
+}
+.latestEpisodes__cards__card1__texts__text, .latestEpisodes__cards__card2__texts__text, .latestEpisodes__cards__card3__texts__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 28px;
+}
+.latestEpisodes__cards__card1__texts__btn, .latestEpisodes__cards__card2__texts__btn, .latestEpisodes__cards__card3__texts__btn {
+  margin-top: 18px;
+}
+.latestEpisodes__cards__card1__img, .latestEpisodes__cards__card2__img, .latestEpisodes__cards__card3__img {
+  width: 100%;
+}
+.latestEpisodes__cards__card1 {
+  margin-top: 40px;
+}
+
+.blockImg {
+  width: 389px;
+}
+
+@media (max-width: 1040px) {
+  .latestEpisodes {
+    padding-bottom: 100px;
+  }
+  .latestEpisodes__h2-btn {
+    margin-left: 0;
+  }
+  .latestEpisodes__cards__card1, .latestEpisodes__cards__card2, .latestEpisodes__cards__card3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .latestEpisodes__cards__card1__img, .latestEpisodes__cards__card2__img, .latestEpisodes__cards__card3__img {
+    width: 100%;
+  }
+  .latestEpisodes__cards__card1__texts, .latestEpisodes__cards__card2__texts, .latestEpisodes__cards__card3__texts {
+    width: 100%;
+    margin-left: 0;
+  }
+  .latestEpisodes__cards__card1__texts__miniBox, .latestEpisodes__cards__card2__texts__miniBox, .latestEpisodes__cards__card3__texts__miniBox {
+    top: 30px;
+  }
+  .latestEpisodes__cards__card1__texts__title, .latestEpisodes__cards__card2__texts__title, .latestEpisodes__cards__card3__texts__title {
+    font-size: 50px;
+    width: 100%;
+  }
+  .latestEpisodes__cards__card1__texts__text, .latestEpisodes__cards__card2__texts__text, .latestEpisodes__cards__card3__texts__text {
+    font-size: 26px;
+  }
+  .blockImg {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .latestEpisodes__h2-btn {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .latestEpisodes__h2-btn__button {
+    margin-top: 20px;
+  }
+  .latestEpisodes__cards__card1__texts__title, .latestEpisodes__cards__card2__texts__title, .latestEpisodes__cards__card3__texts__title {
+    font-size: 20px;
+  }
+  .latestEpisodes__cards__card1__texts__text, .latestEpisodes__cards__card2__texts__text, .latestEpisodes__cards__card3__texts__text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 430px) {
+  .latestEpisodes__h2-btn__text {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=episodes.css.map */

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castaway</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#191919">
+    <meta name="msapplication-TileColor" content="#191919">
+    <meta name="theme-color" content="#191919">
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img class="header__img" src="./src/icons/IMAGE.svg" alt="main-icon" />
+        <div class="header__menu">
+          <a href="#" class="header__menu__nav">Home</a>
+          <a href="#" class="header__menu__nav">Episodes</a>
+          <a href="#" class="header__menu__nav">About</a>
+          <a href="#" class="header__menu__nav">Contact</a>
+        </div>
+        <div class="header__burger">
+          <span class="header__burger__span"></span>
+        </div>
+      </header>
+      <section class="header-main">
+        <div class="header-main__img">
+          <img
+            class="header-main__img__lines"
+            src="./src/icons/lines.svg"
+            alt="icon"
+          />
+          <img
+            class="header-main__img__image"
+            src="./src/img/IMAGE.jpg"
+            alt="img"
+          />
+        </div>
+        <div class="header-main__texts">
+          <p class="header-main__texts__p1">Take your podcast to the</p>
+          <div class="header-main__texts__next-level">
+            <div class="header-main__texts__next-level__next">
+              <p class="header-main__texts__next-level__next__p">next</p>
+              <img
+                class="header-main__texts__next-level__next__line"
+                src="./src/icons/line.svg"
+                alt="line"
+              />
+            </div>
+            <p class="header-main__texts__next-level__level">level</p>
+          </div>
+          <div class="header-main__texts__rectangle">
+            <div class="listen">
+            <p class="header-main__texts__rectangle__p">Listen on<div class="down"></div></p>
+            </div>
+            <div class="header-main__texts__rectangle__icons">
+              <a href="#"><img
+                class="header-main__texts__rectangle__icons__img"
+                src="./src/icons/wifi.svg"
+                alt="icon"
+              /></a>
+              <a href="#"><img
+                class="header-main__texts__rectangle__icons__img"
+                src="./src/icons/lg.svg"
+                alt="icon"
+              /></a>
+              <a href="#"><img
+                class="header-main__texts__rectangle__icons__img"
+                src="./src/icons/bulut.svg"
+                alt="icon"
+              /></a>
+              <a href="#"><img
+                class="header-main__texts__rectangle__icons__img"
+                src="./src/icons/interner.svg"
+                alt="icon"
+              /></a>
+              <a href="#"><img
+                class="header-main__texts__rectangle__icons__img"
+                src="./src/icons/antena.svg"
+                alt="icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="latestEpisodes">
+        <div class="latestEpisodes__h2-btn">
+          <h2 class="latestEpisodes__h2-btn__text">Latest episodes</h2>
+          <button class="latestEpisodes__h2-btn__button button">View all episodes</button>
+        </div>
+        <div class="latestEpisodes__cards">
+          <div class="latestEpisodes__cards__card1">
+            <div class="blockImg"><img src="./src/img/latest1.png" alt="cardImage" class="latestEpisodes__cards__card1__img"></div>
+            <div class="latestEpisodes__cards__card1__texts">
+              <div class="latestEpisodes__cards__card1__texts__miniBox">
+                <p class="latestEpisodes__cards__card1__texts__miniBox__p">Gear</p>
+              </div>
+              <p class="latestEpisodes__cards__card1__texts__tEpis">Episode<span class="latestEpisodes__cards__card1__texts__tEpis__span">3</span></p>
+              <h2 class="latestEpisodes__cards__card1__texts__title">Should you get outboard audio gear?</h2>
+              <p class="latestEpisodes__cards__card1__texts__text">
+                Is hardware really worth it when it comes to podcasting? 
+                The answer is...it depends. Here's our reasons on why you might want to consider picking something up.
+              </p>
+              <button class="latestEpisodes__cards__card1__texts__btn button">View Episode Details</button>
+            </div>
+          </div>
+          <div class="latestEpisodes__cards__card2">
+            <div class="blockImg"><img src="./src/img/latest2.png" alt="cardImage" class="latestEpisodes__cards__card2__img"></div>
+            <div class="latestEpisodes__cards__card2__texts">
+              <div class="latestEpisodes__cards__card2__texts__miniBox">
+                <p class="latestEpisodes__cards__card2__texts__miniBox__p">Tips & Tricks</p>
+              </div>
+              <p class="latestEpisodes__cards__card2__texts__tEpis">Episode<span class="latestEpisodes__cards__card2__texts__tEpis__span">2</span></p>
+              <h2 class="latestEpisodes__cards__card2__texts__title">Mic tricks to take you to the next level</h2>
+              <p class="latestEpisodes__cards__card2__texts__text">
+                Stop rolling with those default settings on your mic. 
+                These small tweaks will take you from sounding good to great.
+              </p>
+              <button class="latestEpisodes__cards__card2__texts__btn button">View Episode Details</button>
+            </div>
+          </div>
+          <div class="latestEpisodes__cards__card3">
+            <div class="blockImg"><img src="./src/img/latest3.png" alt="cardImage" class="latestEpisodes__cards__card3__img"></div>
+            <div class="latestEpisodes__cards__card3__texts">
+              <div class="latestEpisodes__cards__card3__texts__miniBox">
+                <p class="latestEpisodes__cards__card3__texts__miniBox__p">Gear</p>
+              </div>
+              <p class="latestEpisodes__cards__card3__texts__tEpis">Episode<span class="latestEpisodes__cards__card3__texts__tEpis__span">1</span></p>
+              <h2 class="latestEpisodes__cards__card3__texts__title">The best microphone under $200</h2>
+              <p class="latestEpisodes__cards__card3__texts__text">
+                With so many microphones on the market, how are you supposed to know what's the best? 
+                Take a look at our top picks.
+              </p>
+              <button class="latestEpisodes__cards__card3__texts__btn button">View Episode Details</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__texts">
+          <div class="about__texts__indicant">
+            <img class="about__texts__indicant__icon" src="./src/icons/indicant.png"/>
+          </div>
+          <p class="about__texts__color">Meet your host</p>
+          <h2 class="about__texts__title">Jacob Paulaner</h2>
+          <p class="about__texts__text">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+          <p class="about__texts__text">He's here to help you level up your game by sharing everything he'rs learned along the way.</p>
+        </div>
+        <div class="about__img">
+          <img class="about__img__image" src="./src/img/about.jpg" alt="img">
+        </div>
+      </section>
+      <section class="contact">
+        <img class="contact__lines" src="./src/icons/lines_down.svg" alt="lines">
+        <div class="contact__form">
+          <div class="contact__form__texts">
+            <p class="contact__form__texts__p">Email Newsletter</p>
+            <h2 class="contact__form__texts__title">Subscribe for updates</h2>
+          </div>
+          <form action="#" class="contact__form__inps">
+            <input class="contact__form__inps__inp1" type="text" placeholder="Name">
+            <input class="contact__form__inps__inp2" type="text" placeholder="Email">
+            <button class="contact__form__inps__btn">Submit</button>
+          </form>
+        </div>
+        <div class="contact__dataName">
+
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

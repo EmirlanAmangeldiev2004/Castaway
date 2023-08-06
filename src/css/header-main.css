@@ -1,0 +1,135 @@
+.header-main {
+  display: flex;
+}
+.header-main__img {
+  max-width: 650px;
+  position: relative;
+  padding: 26px 0 0 26px;
+}
+.header-main__img__lines {
+  position: absolute;
+  width: 13, 3%;
+  top: 0;
+  left: 0;
+}
+.header-main__img__image {
+  width: 100%;
+}
+.header-main__texts {
+  margin: 334px 0 0 60px;
+}
+.header-main__texts__p1 {
+  color: #fff;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 3.2px;
+  max-width: 526px;
+}
+.header-main__texts__next-level {
+  display: flex;
+}
+.header-main__texts__next-level__next {
+  position: relative;
+  height: 88px;
+}
+.header-main__texts__next-level__next__p {
+  color: #fff;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 3.2px;
+  position: absolute;
+  left: 4px;
+}
+.header-main__texts__next-level__level {
+  color: #fff;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  margin-left: 25px;
+  height: 80px;
+}
+.header-main__texts__rectangle {
+  margin-top: 74px;
+  padding-left: 22px;
+}
+.header-main__texts__rectangle__p {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.header-main__texts__rectangle__icons {
+  display: flex;
+  gap: 17px;
+}
+
+@media (max-width: 960px) {
+  .header-main {
+    display: block;
+  }
+  .header-main__texts {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .header-main__texts__next-level {
+    display: block;
+  }
+  .header-main__texts__next-level__level {
+    margin-left: 0;
+  }
+  .header-main__texts__rectangle {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+  .header-main__texts__rectangle__icons {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    align-items: center;
+    width: 52px;
+    border-radius: 30px;
+    padding: 10px 0 10px 0;
+    position: absolute;
+    left: 56px;
+    z-index: 50;
+    animation: downAnimation 1s;
+  }
+  .header-main__texts__rectangle__icons__img {
+    width: 32px;
+  }
+}
+@keyframes downAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 500px) {
+  .down {
+    display: flex;
+  }
+}
+@media (max-width: 430px) {
+  .header-main__texts__p1 {
+    font-size: 50px;
+  }
+  .header-main__texts__next-level__next__line {
+    width: 110px;
+    height: 80px;
+  }
+  .header-main__texts__next-level__next__p {
+    font-size: 50px;
+  }
+  .header-main__texts__next-level__level {
+    font-size: 50px;
+  }
+}/*# sourceMappingURL=header-main.css.map */

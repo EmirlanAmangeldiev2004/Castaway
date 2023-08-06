@@ -1,0 +1,73 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+}
+.about__texts {
+  width: 100%;
+}
+.about__texts__indicant {
+  width: 112px;
+  height: 112px;
+  border-radius: 400px;
+  background: #118da8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__texts__color {
+  color: #118da8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.about__texts__title {
+  color: #fff;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2.88px;
+  width: 80%;
+}
+.about__texts__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 33px;
+  width: 90%;
+}
+.about__img {
+  width: 100%;
+}
+.about__img__image {
+  width: 100%;
+}
+
+@media (max-width: 1040px) {
+  .about {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .about__texts {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .about__texts__indicant {
+    height: 50px;
+    width: 50px;
+  }
+  .about__texts__indicant__icon {
+    width: 40px;
+  }
+  .about__texts__title {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .about__texts__text {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=about.css.map */
